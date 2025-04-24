@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults();
 server.use(cors({
   origin: 'https://fitness-tracker-y8ecs1gde-esther-sonias-projects.vercel.app/', 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type']
 }));
 
 server.use(middlewares);
