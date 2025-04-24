@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 
 // Set up CORS for cross-origin requests
 server.use(cors({
-  origin: '*', 
+  origin: 'https://fitness-tracker-y8ecs1gde-esther-sonias-projects.vercel.app/', 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
